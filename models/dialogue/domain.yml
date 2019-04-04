@@ -1,0 +1,182 @@
+%YAML 1.1
+---
+actions:
+- utter_about_us
+- utter_academic_cal
+- utter_admission
+- utter_aero
+- utter_ask_builder
+- utter_ask_howbuilt
+- utter_ask_languagesbot
+- utter_bye
+- utter_civil
+- utter_cse
+- utter_ece
+- utter_eee
+- utter_eie
+- utter_fee
+- utter_founded
+- utter_founder
+- utter_greet
+- utter_infrastructure
+- utter_mba
+- utter_mech
+- utter_out_of_scope
+- utter_placement
+- utter_ranking
+- utter_scholarship
+- utter_social
+- utter_thank
+- utter_tour
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- about_us:
+    use_entities: true
+- academic_cal:
+    use_entities: true
+- admission:
+    use_entities: true
+- aero:
+    use_entities: true
+- ask_builder:
+    use_entities: true
+- ask_howbuilt:
+    use_entities: true
+- ask_languagesbot:
+    use_entities: true
+- bye:
+    use_entities: true
+- civil:
+    use_entities: true
+- cse:
+    use_entities: true
+- ece:
+    use_entities: true
+- eee:
+    use_entities: true
+- eie:
+    use_entities: true
+- fee:
+    use_entities: true
+- founded:
+    use_entities: true
+- founder:
+    use_entities: true
+- greet:
+    use_entities: true
+- infrastructure:
+    use_entities: true
+- mba:
+    use_entities: true
+- mech:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- placement:
+    use_entities: true
+- ranking:
+    use_entities: true
+- scholarship:
+    use_entities: true
+- social:
+    use_entities: true
+- name:
+    use_entities: true
+- thank:
+    use_entities: true
+- tour:
+    use_entities: true
+slots: {}
+templates:
+  utter_about_us:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/about-us' target='_blank'>About Us</a>
+  utter_academic_cal:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/academiccalendar' target='_blank'>Academic
+      Calendar</a>
+  utter_admission:
+  - text: Please click on the link provided and fill the EOI form our admission team
+      will contact you soon.<a href='https://eduserve.karunya.edu/online/admissions/eoi.aspx'
+      target='_blank'>EOI form</a>
+  utter_aero:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/aerospace' target='_blank'>Aerospace</a>
+  utter_ask_builder:
+  - text: An engineer at Karunya ??
+  - text: One of the smart engineer at Karunya! ??
+  utter_ask_howbuilt:
+  - text: I have been built with a lot of love and patience.
+  utter_ask_languagesbot:
+  - text: I can spell baguette in French, but unfortunately English is the only language
+      I can answer you in.
+  - text: I am in the process of learning, but at the moment I can only speak English.
+  utter_bye:
+  - text: Goodbye!
+  - text: Bye!
+  - text: Ciao!
+  - text: Bye, was nice talking to you!
+  utter_civil:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/civil' target='_blank'>Civil</a>
+  utter_cse:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/cse' target='_blank'>CSE</a>
+  utter_ece:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/ece' target='_blank'>ECE</a>
+  utter_eee:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/eee' target='_blank'>EEE</a>
+  utter_eie:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/eie' target='_blank'>EIE</a>
+  utter_fee:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='https://www.karunya.edu/search/node?keys=fee' target='_blank'>Fee
+      Structure</a>
+  utter_founded:
+  - text: Karunya Institute of Technology was established in 1986
+  utter_founder:
+  - text: Dr. D.G.S. Dhinakaran, a world renowned spiritual leader, is the Founder
+      Chancellor Emeritus of Karunya Institute of Technology and Sciences.
+  utter_greet:
+  - text: Hey there, welcome to Karunya!
+  utter_infrastructure:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/infrastructure' target='_blank'>Infrastructure</a>
+  utter_mba:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/mba' target='_blank'>MBA</a>
+  utter_mech:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/mechanical' target='_blank'>Mechanical</a>
+  utter_out_of_scope:
+  - text: Sorry, I can’t deal with that request.
+  - text: I'm sorry, I can't handle that request.
+  - text: I can't help you with that, I'm sorry.
+  - text: Even a Rasa bot is not completely perfect - it seems like I can't handle
+      that request.
+  utter_placement:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/placements' target='_blank'>Placement</a>
+  utter_ranking:
+  - text: 'NIRF Ranking 2017: Engineering Rank:62 University Rank:71'
+  utter_scholarship:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://karunya.edu/admissions/scholarships' target='_blank'>Scholarship</a>
+  utter_social:
+  - text: Please click on the link provided to find the information you are lookingfor.
+      <a href='https://www.facebook.com/Karunya.DeemedToBeUniversity/' target='_blank'>Facebook</a>
+      <a href='http://youtube.com/karunyauniversity' target='_blank'>Youtube</a> <a
+      href='http://youtube.com/karunyauniversity' target='_blank'>Twitter</a> <a href='https://www.linkedin.com/edu/school?id=187105'
+      target='_blank'>Linkedin</a>
+  utter_thank:
+  - text: Welcome
+  utter_tour:
+  - text: Please click on the link provided to find the information you are looking
+      for. <a href='http://www.karunya.edu/visit?current=/node/431' target='_blank'>Virtual
+      Tour</a>

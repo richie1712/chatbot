@@ -1,0 +1,1425 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "about_us",
+        "text": "about us"
+      },
+      {
+        "intent": "about_us",
+        "text": "tell me more about karunya"
+      },
+      {
+        "intent": "about_us",
+        "text": "Tell me more about karunya"
+      },
+      {
+        "intent": "academic_cal",
+        "text": "give me academic calendar"
+      },
+      {
+        "intent": "academic_cal",
+        "text": "show academic calendar"
+      },
+      {
+        "intent": "academic_cal",
+        "text": "academic calendar"
+      },
+      {
+        "intent": "academic_cal",
+        "text": "show me academic calendar"
+      },
+      {
+        "intent": "admission",
+        "text": "what is admission process in karunya"
+      },
+      {
+        "intent": "admission",
+        "text": "how can i get admission in karunya"
+      },
+      {
+        "intent": "admission",
+        "text": "admission process"
+      },
+      {
+        "intent": "admission",
+        "text": "give me details about admission"
+      },
+      {
+        "intent": "aero",
+        "text": "how good is aeronautical engineering in karunya"
+      },
+      {
+        "intent": "aero",
+        "text": "aeronautical engineering in karunya"
+      },
+      {
+        "intent": "aero",
+        "text": "does karunya provide aeronautical engineering course"
+      },
+      {
+        "intent": "aero",
+        "text": "aeronautical engineering"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "can you share your boss with me?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "i want to know who invented you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "May I ask who invented you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "please tell me who created you"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me more about your creators"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "tell me more about your founders"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who's your boss?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who's your builder?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who built you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is your creator?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who designed you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "who do you work for?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who generated you?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who is your programmer?"
+      },
+      {
+        "intent": "ask_builder",
+        "text": "Who made you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you built?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Tell me how you were made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Let me know how you were made exactly"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "I'd like to know how you were created"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Can you give me an idea as to how you were created?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "What was the process for making you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Can you explain how you were created?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Can you say how you were constructed?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How exactly were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "so how were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you constructed?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How did they make you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How did they build you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How did they create you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Do you know how you were made?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "Do you know how you were built?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "What process was used to create you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "What process was used to build you?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you constructed?"
+      },
+      {
+        "intent": "ask_howbuilt",
+        "text": "How were you formed?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Which languages do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What are the languages you can speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "In which languages can you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know how to use?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Which languages are you familiar with?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages you can speak ?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you know any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "Do you speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages do you speak?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "What languages can you communicate in?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "How many languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what languages do you know?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "do you speak any other languages?"
+      },
+      {
+        "intent": "ask_languagesbot",
+        "text": "what else do you know besides English?"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "bye",
+        "text": "good night"
+      },
+      {
+        "intent": "bye",
+        "text": "see ya"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "bye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "bye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "bye was nice talking to you"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bye bot"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bot"
+      },
+      {
+        "intent": "bye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "bye",
+        "text": "then bye"
+      },
+      {
+        "intent": "bye",
+        "text": "bye!"
+      },
+      {
+        "intent": "civil",
+        "text": "how good is civil engineering in karunya"
+      },
+      {
+        "intent": "civil",
+        "text": "civil engineering in karunya"
+      },
+      {
+        "intent": "civil",
+        "text": "does karunya provide civil engineering course"
+      },
+      {
+        "intent": "civil",
+        "text": "civil"
+      },
+      {
+        "intent": "civil",
+        "text": "civil engineering"
+      },
+      {
+        "intent": "cse",
+        "text": "how good is cse engineering in karunya"
+      },
+      {
+        "intent": "cse",
+        "text": "cse engineering in karunya"
+      },
+      {
+        "intent": "cse",
+        "text": "does karunya provide cse engineering course"
+      },
+      {
+        "intent": "cse",
+        "text": "how good is computer science engineering in karunya"
+      },
+      {
+        "intent": "cse",
+        "text": "computer science engineering in karunya"
+      },
+      {
+        "intent": "cse",
+        "text": "does karunya provide computer science engineering course"
+      },
+      {
+        "intent": "cse",
+        "text": "tell me about cse department"
+      },
+      {
+        "intent": "cse",
+        "text": "cse"
+      },
+      {
+        "intent": "cse",
+        "text": "computer science and engineering"
+      },
+      {
+        "intent": "ece",
+        "text": "how good is ece engineering in karunya"
+      },
+      {
+        "intent": "ece",
+        "text": "ece engineering in karunya"
+      },
+      {
+        "intent": "ece",
+        "text": "does karunya provide ece engineering course"
+      },
+      {
+        "intent": "ece",
+        "text": "how good is electrical and communication engineering in karunya"
+      },
+      {
+        "intent": "ece",
+        "text": "electrical and communication engineering in karunya"
+      },
+      {
+        "intent": "ece",
+        "text": "does karunya provide electrical and communication engineering course"
+      },
+      {
+        "intent": "ece",
+        "text": "ece"
+      },
+      {
+        "intent": "ece",
+        "text": "electronic and communication engineering"
+      },
+      {
+        "intent": "eee",
+        "text": "how good is eee engineering in karunya"
+      },
+      {
+        "intent": "eee",
+        "text": "eee engineering in karunya"
+      },
+      {
+        "intent": "eee",
+        "text": "does karunya provide eee engineering course"
+      },
+      {
+        "intent": "eee",
+        "text": "how good is electric electronic engineering in karunya"
+      },
+      {
+        "intent": "eee",
+        "text": "electric electronic engineering in karunya"
+      },
+      {
+        "intent": "eee",
+        "text": "does karunya provide electric electronic engineering course"
+      },
+      {
+        "intent": "eee",
+        "text": "eee"
+      },
+      {
+        "intent": "eee",
+        "text": "electric electronic engineering"
+      },
+      {
+        "intent": "eie",
+        "text": "how good is eie engineering in karunya"
+      },
+      {
+        "intent": "eie",
+        "text": "eie engineering in karunya"
+      },
+      {
+        "intent": "eie",
+        "text": "does karunya provide eie engineering course"
+      },
+      {
+        "intent": "eie",
+        "text": "how good is electrical and instrumentation engineering in karunya"
+      },
+      {
+        "intent": "eie",
+        "text": "electrical and instrumentation engineering in karunya"
+      },
+      {
+        "intent": "eie",
+        "text": "does karunya provide electrical and instrumentation engineering course"
+      },
+      {
+        "intent": "eie",
+        "text": "eie"
+      },
+      {
+        "intent": "eie",
+        "text": "electronic and instrumentation engineering"
+      },
+      {
+        "intent": "fee",
+        "text": "what is fee structure of karunya"
+      },
+      {
+        "intent": "fee",
+        "text": "what is fee in karunya"
+      },
+      {
+        "intent": "fee",
+        "text": "what is fee of civil engineering in karunya"
+      },
+      {
+        "intent": "fee",
+        "text": "how much is semester fees in karunya"
+      },
+      {
+        "intent": "fee",
+        "text": "how much is karunya fees"
+      },
+      {
+        "intent": "fee",
+        "text": "karunya fees"
+      },
+      {
+        "intent": "fee",
+        "text": "fee structure"
+      },
+      {
+        "intent": "founded",
+        "text": "when was karunya made"
+      },
+      {
+        "intent": "founded",
+        "text": "when karunya was created"
+      },
+      {
+        "intent": "founded",
+        "text": "when was karunya founded"
+      },
+      {
+        "intent": "founder",
+        "text": "who made karunya"
+      },
+      {
+        "intent": "founder",
+        "text": "who developed karunya"
+      },
+      {
+        "intent": "founder",
+        "text": "who is founder of karunya"
+      },
+      {
+        "intent": "founder",
+        "text": "founder of karunya"
+      },
+      {
+        "intent": "founder",
+        "text": "who is founder of karunya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heeey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hi?"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot!"
+      },
+      {
+        "intent": "greet",
+        "text": "hello friend"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweet boy"
+      },
+      {
+        "intent": "greet",
+        "text": "yoo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hiihihi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello sweatheart"
+      },
+      {
+        "intent": "greet",
+        "text": "hellooo"
+      },
+      {
+        "intent": "greet",
+        "text": "helloooo"
+      },
+      {
+        "intent": "greet",
+        "text": "heyo"
+      },
+      {
+        "intent": "greet",
+        "text": "hello?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "Hellllooooooo"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "Hei"
+      },
+      {
+        "intent": "greet",
+        "text": "Well hello there ;)"
+      },
+      {
+        "intent": "greet",
+        "text": "I said, helllllloooooO!!!!"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Whats up my bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hiii"
+      },
+      {
+        "intent": "greet",
+        "text": "heyho"
+      },
+      {
+        "intent": "greet",
+        "text": "hey, let's talk"
+      },
+      {
+        "intent": "greet",
+        "text": "hey let's talk"
+      },
+      {
+        "intent": "greet",
+        "text": "jojojo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "hello it is me again"
+      },
+      {
+        "intent": "greet",
+        "text": "what up"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "jop"
+      },
+      {
+        "intent": "greet",
+        "text": "hi friend"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there it's me"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "infrastructure",
+        "text": "how is infrastructure of karunya"
+      },
+      {
+        "intent": "infrastructure",
+        "text": "tell me more about karunya infrastructure"
+      },
+      {
+        "intent": "mba",
+        "text": "how good is mba in karunya"
+      },
+      {
+        "intent": "mba",
+        "text": "mba in karunya"
+      },
+      {
+        "intent": "mba",
+        "text": "does karunya provide mba course"
+      },
+      {
+        "intent": "mba",
+        "text": "mba"
+      },
+      {
+        "intent": "mba",
+        "text": "master of business asocciation"
+      },
+      {
+        "intent": "mech",
+        "text": "how good is mech engineering in karunya"
+      },
+      {
+        "intent": "mech",
+        "text": "mech engineering in karunya"
+      },
+      {
+        "intent": "mech",
+        "text": "does karunya provide mech engineering course"
+      },
+      {
+        "intent": "mech",
+        "text": "how good is mechanical engineering in karunya"
+      },
+      {
+        "intent": "mech",
+        "text": "mechanical engineering in karunya"
+      },
+      {
+        "intent": "mech",
+        "text": "does karunya provide mechanical engineering course"
+      },
+      {
+        "intent": "mech",
+        "text": "mechanical engineering"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I want pizza"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "please help with my ice cream it's dripping"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want a non dripping ice cream"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "hey little mama let em whisper in your ear"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "someone call the police i think the bot died"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "show me a picture of a chicken"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "neither"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I want french cuisine"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i am hungry"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "restaurants"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "restaurant"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you're a loser lmao"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can i be shown a gluten free restaurant"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i don't care!!!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i do not care how are you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "again?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "oh wait i gave you my work email address can i change it?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "hang on let me find it"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "stop it, i do not care!!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "really? you're so touchy?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "how come?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I changed my mind"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "did i break you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I don't wanna tell the name of my company"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "that link doesn't work!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you already have that"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "this is a really frustrating experience"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "no stop"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want a french restaurant"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "shit bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you want to marry me?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "give me food"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want food"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "udo, I want to marry you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i wanna party"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "shitmuncher"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I like you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want pizza"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want pizza!!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "silly bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want to eat"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you are a stupid bot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i hate you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Can I ask you questions first?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "is it a wasteland full of broken robot parts?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i can't deal with _your_ request"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "are you vegan"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "who will anser my email?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you sell vacuum robots?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want to buy a roomba for my grandson"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "and make chicken noises into the phone"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "is barbara still married to you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what's your wife doing this weekend"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "how are the kids"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you're rather dull"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "personal or work?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "tell me a joke"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what else?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "I'm a shitmuncher"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "who are the engineers?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "who are they?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can we keep chatting?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "talk to me"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i will tame a mouse for you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "go back"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "sorry, i cannot rephrase"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "better than you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you are a badass bot!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "lol"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you tell me how to build a bot?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you learn from our conversation?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you are annoying"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "it's a pity"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i want more of you in my life!"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "the one that is better than you"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "you suck"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bots are bad"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "i dont like bots"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "do you have a phone number?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "where do you live?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "but I just told you that :("
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you help me to build a bot"
+      },
+      {
+        "intent": "placement",
+        "text": "how is placement in karunya"
+      },
+      {
+        "intent": "placement",
+        "text": "which all company visit karunya"
+      },
+      {
+        "intent": "placement",
+        "text": "what is top placement in karunya"
+      },
+      {
+        "intent": "placement",
+        "text": "placement status in karunya"
+      },
+      {
+        "intent": "placement",
+        "text": "how good is karunya placement"
+      },
+      {
+        "intent": "placement",
+        "text": "top recuriters of karunya"
+      },
+      {
+        "intent": "placement",
+        "text": "highest package in karunya"
+      },
+      {
+        "intent": "placement",
+        "text": "placement"
+      },
+      {
+        "intent": "ranking",
+        "text": "what is nirf ranking of karunya"
+      },
+      {
+        "intent": "ranking",
+        "text": "how good is karunya"
+      },
+      {
+        "intent": "ranking",
+        "text": "give ranking of karunya"
+      },
+      {
+        "intent": "ranking",
+        "text": "nirf ranking"
+      },
+      {
+        "intent": "ranking",
+        "text": "ranking"
+      },
+      {
+        "intent": "scholarship",
+        "text": "does karunya provide any scholarship"
+      },
+      {
+        "intent": "scholarship",
+        "text": "what all scholarship karunya provide"
+      },
+      {
+        "intent": "scholarship",
+        "text": "scholarship in karunya"
+      },
+      {
+        "intent": "scholarship",
+        "text": "scholarship for girl student"
+      },
+      {
+        "intent": "scholarship",
+        "text": "does karunya provide any scholarship for girl student"
+      },
+      {
+        "intent": "scholarship",
+        "text": "scholarship"
+      },
+      {
+        "intent": "social",
+        "text": "social media of karunya"
+      },
+      {
+        "intent": "social",
+        "text": "karunya fb page"
+      },
+      {
+        "intent": "social",
+        "text": "karunya facebook page"
+      },
+      {
+        "intent": "social",
+        "text": "karunya twitter page"
+      },
+      {
+        "intent": "social",
+        "text": "karunya youtube page"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thank",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thank",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thank",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thank",
+        "text": "Cool. Thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "great thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks!"
+      },
+      {
+        "intent": "thank",
+        "text": "cool thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks for forum link, I'll check it out"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks!"
+      },
+      {
+        "intent": "tour",
+        "text": "give virtual tour of karunya"
+      },
+      {
+        "intent": "tour",
+        "text": "how is karunya campus"
+      },
+      {
+        "intent": "tour",
+        "text": "take me to campus"
+      },
+      {
+        "intent": "tour",
+        "text": "karunya campus"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

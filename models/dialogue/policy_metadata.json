@@ -1,0 +1,102 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_mech": {
+      "slots": []
+    },
+    "utter_eie": {
+      "slots": []
+    },
+    "utter_ask_howbuilt": {
+      "slots": []
+    },
+    "utter_eee": {
+      "slots": []
+    },
+    "utter_social": {
+      "slots": []
+    },
+    "utter_aero": {
+      "slots": []
+    },
+    "utter_ranking": {
+      "slots": []
+    },
+    "utter_academic_cal": {
+      "slots": []
+    },
+    "utter_founded": {
+      "slots": []
+    },
+    "utter_ask_languagesbot": {
+      "slots": []
+    },
+    "utter_fee": {
+      "slots": []
+    },
+    "utter_cse": {
+      "slots": []
+    },
+    "utter_civil": {
+      "slots": []
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "utter_admission": {
+      "slots": []
+    },
+    "utter_out_of_scope": {
+      "slots": []
+    },
+    "utter_about_us": {
+      "slots": []
+    },
+    "utter_ask_builder": {
+      "slots": []
+    },
+    "utter_founder": {
+      "slots": []
+    },
+    "utter_tour": {
+      "slots": []
+    },
+    "utter_infrastructure": {
+      "slots": []
+    },
+    "utter_thank": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_placement": {
+      "slots": []
+    },
+    "utter_scholarship": {
+      "slots": []
+    },
+    "utter_ece": {
+      "slots": []
+    },
+    "utter_mba": {
+      "slots": []
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20190403-101803",
+  "rasa_core": "0.13.0",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.2"
+}
